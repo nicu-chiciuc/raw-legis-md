@@ -1,7 +1,7 @@
-# legis-md
+# raw-legis-md
 
-The pages of Moldova's State Register of Legal Acts, [legis.md](https://www.legis.md), as fetched by
-[Ailegis](https://ailegis.tsx.md): one HTML file per consolidated version of an act.
+The pages of Moldova's State Register of Legal Acts, [legis.md](https://www.legis.md): one HTML file per
+consolidated version of an act.
 
 - `documents/0155/0155991.html` is legis.md's document 155991, in folders of 1,000. Its page on legis.md is
   `https://www.legis.md/cautare/getResults?doc_id=155991&lang=ro`.
@@ -9,13 +9,13 @@ The pages of Moldova's State Register of Legal Acts, [legis.md](https://www.legi
   versions with their in-force dates, and the full text with notes naming the act behind each change. Files up
   to 155991 come from an earlier archive and are the bare fragment; later ones, fetched daily since
   November 2026, are the same fragment wrapped in `<html>`.
-- Ailegis adds new pages here as legis.md publishes them. Files are never changed once added.
+- New pages are added as legis.md publishes them. Files are never changed once added.
 
 To get only part of it:
 
 ```sh
-git clone --filter=blob:none --sparse https://github.com/samebase/legis-md
-cd legis-md && git sparse-checkout set documents/0155
+git clone --filter=blob:none --sparse https://github.com/nicu-chiciuc/raw-legis-md
+cd raw-legis-md && git sparse-checkout set documents/0155
 ```
 
 Official texts such as laws and government decisions are not protected by copyright in Moldova (Law 139/2010 on
