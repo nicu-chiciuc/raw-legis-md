@@ -17,5 +17,7 @@ git clone --filter=blob:none --sparse https://github.com/nicu-chiciuc/raw-legis-
 cd raw-legis-md && git sparse-checkout set documents/0155
 ```
 
-Official texts such as laws and government decisions are not protected by copyright in Moldova (Law 139/2010 on
-copyright and related rights). This is not an official publication.
+Official texts such as laws and government decisions are not protected by copyright in Moldova (Law 230/2022 on
+copyright and related rights, art. 8 lit. b),
+[legix.md/lege/2022/230#art_8__point_b](https://legix.md/lege/2022/230#art_8__point_b)). This is not an official
+publication.
