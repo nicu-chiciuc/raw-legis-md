@@ -5,10 +5,9 @@ consolidated version of an act.
 
 - `documents/0155/0155991.html` is legis.md's document 155991, in folders of 1,000. Its page on legis.md is
   `https://www.legis.md/cautare/getResults?doc_id=155991&lang=ro`.
-- A file is what legis.md serves at `/cautare/showdetails/<id>/`: the act's details table, the list of its
-  versions with their in-force dates, and the full text with notes naming the act behind each change. Files up
-  to 155991 come from an earlier archive and are the bare fragment; later ones, fetched daily since
-  November 2026, are the same fragment wrapped in `<html>`.
+- A file is the act's page on legis.md: its details table, the list of its versions with their in-force dates,
+  and the full text with notes naming the act behind each change. Files up to 155991 come from an earlier
+  archive and are the bare fragment; later ones are the same fragment wrapped in `<html>`.
 - New pages are added as legis.md publishes them. Files are never changed once added.
 
 To get only part of it:
